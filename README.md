@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# A Simple Currency-Exchange React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This is a simple React App. That can be used as a currency exchanger. 
+* The values are fetched from API.
+* User can select the currency they want to exchange and to which currency, and enter the amount to get the equivalent value.
 
 ## Available Scripts
 
