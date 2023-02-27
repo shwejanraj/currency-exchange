@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    margin-inline: auto;
+    width: 80%;
+    height: 50%;
+    margin-inline: auto;
+    background-color: peachpuff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.heading{
+    text-align: center;
+}
+.body{
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.inputValue, .outputValue, .convertButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+   
+}
+select{
+    padding: 10px;
+}
+
+.convertButton button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.coins{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
